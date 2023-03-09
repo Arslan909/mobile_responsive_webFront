@@ -1,42 +1,40 @@
-* {
-    box-sizing: border-box;
-  }
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 
-/* handle the screen sizing when it increase more than 600px */
-@media (min-width: 600px) {
-    .container {
-      width: 30%;
-      margin: 0 auto;
-    }
 }
-.body {
-    margin: 0 auto;
-    padding: 0;
-}
+
 .container {
     background-color: #310069;
-    min-height: 150vh;  
+    min-height: 150vh;
+    margin: 0;
     /* border: 5px solid brown; */
 }
+
 .navbar {
     display: flex;
     color: #f1e6ff;
     justify-content: space-between;
     padding-top: 30px;
 }
+
 .nav-content1 {
     padding-left: 20px;
     margin: 0;
 }
+
 .nav-content2 {
     padding-right: 20px;
-    margin: 0; 
+    margin: 0;
 }
 
 .description {
     display: flex;
     flex-direction: column;
 }
+
 .description h1 {
     color: #9f00ff;
     font-size: 50px;
@@ -44,6 +42,7 @@
     text-align: center;
     padding-top: 100px;
 }
+
 .description h2 {
     margin: 0;
     padding: 10%;
@@ -51,42 +50,50 @@
     text-align: center;
     color: #f1e6ff;
 }
+
 .description p {
     margin: 0;
     padding: 5%;
     text-align: center;
     color: #f1e6ff;
 }
+
 .list-container {
     display: flex;
     justify-content: space-between;
 }
+
 .lang-list1 {
     margin: 0;
     color: #f1e6ff;
     padding-top: 20px;
     padding-left: 20px;
 }
+
 .list1 {
     text-align: left;
     font-size: 16px;
 }
+
 .lang-list2 {
     margin: 0;
     color: #f1e6ff;
     padding-top: 20px;
     padding-right: 100px;
 }
+
 .list2 {
     text-align: left;
     font-size: 16px;
 }
+
 .list-container h4 {
     margin: 0;
     padding: 10px;
     color: #ae4aff;
     font-size: small;
 }
+
 .list-container h5 {
     margin: 0;
     padding: 10px;
@@ -98,5 +105,16 @@ hr {
     background-color: #472669;
     border-color: #472669;
     border-top: #472669;
-  }
+}
 
+* {
+    box-sizing: border-box;
+}
+
+/* handle the screen sizing when it increase more than 600px */
+@media (min-width: 600px) {
+    .container {
+        width: 30%;
+        /* margin: 0 auto; */
+    }
+}
